@@ -1,0 +1,30 @@
+# MAC OS X - XCode stuff to ignore
+.DS_Store
+*.swp
+*~.nib
+
+build
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.tm_build_errors
+
+# Other scm cruft
+.svn
+.cvs
+
+# Eclipse stuff to ignore
+#.settings
+#.project
+#.classpath
+*/bin
+
+# Maven specific
+*/target
+
+# Ignore specific android SDK isms
+*/gen
+/bin
